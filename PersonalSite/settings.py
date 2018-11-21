@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'jobs.apps.JobsConfig',
     'django.contrib.admin',
+    'letsencrypt',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
