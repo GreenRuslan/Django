@@ -50,8 +50,8 @@
 
       <div class="album py-5 bg-light">
         <div class="container">
-          {% for job in jobs.all %}
-          <div class="row">
+            <div class="row">
+                {% for job in jobs.all %}
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <img class="card-img-top" src="{{ job.image.url }}" alt="We have fucked everything!">
@@ -65,8 +65,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+
 
     </main>
 
